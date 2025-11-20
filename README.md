@@ -1,27 +1,34 @@
 # RAG PLM Assistant (DefenseBot)
 
-A Retrieval-Augmented Generation (RAG) chatbot that allows you to chat with your own PDF documents. It uses OpenAI and ChromaDB to search through your files and answer questions based on their content.
+A Retrieval-Augmented Generation (RAG) chatbot that allows you to chat with your own PDF documents. It uses ChromaDB to search through your files and answer questions based on their content.
 
 ## 🚀 Features
 - **Ingest PDFs:** Automatically reads and indexes PDF files.
 - **Vector Search:** Uses ChromaDB to find the most relevant text chunks.
-- **AI Chat:** Uses OpenAI to generate accurate answers based *only* on your documents.
+- **AI Chat:** Generates answers based on your documents.
 
 ## 🛠️ Prerequisites
 **Before you start, make sure you have:**
 1.  **Python 3.10 or 3.11** installed.
-2.  **OpenAI API Key** (active with credits).
-3.  **Microsoft C++ Build Tools** (⚠️ Required for Windows users):
-    * If `pip install` fails with a "Visual C++ 14.0" error, you must download [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+2.  **Microsoft C++ Build Tools** (⚠️ Required for Windows users):
+    * If `pip install` fails with a "Visual C++ 14.0" error, download [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
     * Install the **"Desktop development with C++"** workload.
 
 ## 📥 Installation
-
-1.  **Clone the repository:**
+1.  **Install Project:**
+**Option 1: Download ZIP (No Git required)**
+1.  Click the green **<> Code** button at the top of this page.
+2.  Select **Download ZIP**.
+3.  Extract (Unzip) the folder to your computer.
+4.  Open your terminal (Command Prompt) and navigate into the extracted folder:
     ```bash
-    git clone [https://github.com/rperumalraja-hue/rag-plm-assitant.git](https://github.com/rperumalraja-hue/rag-plm-assitant.git)
-    cd rag-plm-assitant
+    cd rag-plm-assitant-main
     ```
+
+**Option 2: Clone via Git (For developers)**
+```bash
+git clone [https://github.com/rperumalraja-hue/rag-plm-assitant.git](https://github.com/rperumalraja-hue/rag-plm-assitant.git)
+cd rag-plm-assitant
 
 2.  **Install dependencies:**
     ```bash
@@ -30,14 +37,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that allows you to chat with your
 
 ## ⚙️ Configuration
 
-### 1. Setup API Keys
-* Open the `config.py` file.
-* Replace the placeholder text with your actual OpenAI API Key:
-    ```python
-    OPENAI_API_KEY = "sk-..."
-    ```
-
-### 2. Setup Data Folders
+### 1. Setup Data Folders
 * Go to the `data_source` folder.
 * **Important:** If the folders are missing, create them manually so the structure looks like this:
     ```

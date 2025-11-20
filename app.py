@@ -16,7 +16,7 @@ from config import DB_PATH, MODEL_NAME, EMBEDDING_MODEL
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Defense Design Assistant", layout="wide")
-st.title("🚁 Helicopter Design & PLM Assistant")
+st.title("PLM Assistant")
 
 # --- SESSION STATE ---
 if "history" not in st.session_state:

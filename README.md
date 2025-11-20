@@ -16,20 +16,14 @@ A Retrieval-Augmented Generation (RAG) chatbot that allows you to chat with your
 
 ## 📥 Installation
 1.  **Install Project:**
-**Option 1: Download ZIP (No Git required)**
-1.  Click the green **<> Code** button at the top of this page.
-2.  Select **Download ZIP**.
-3.  Extract (Unzip) the folder to your computer.
-4.  Open your terminal (Command Prompt) and navigate into the extracted folder:
-    ```bash
-    cd rag-plm-assitant-main
-    ```
-
-**Option 2: Clone via Git (For developers)**
-```bash
-git clone [https://github.com/rperumalraja-hue/rag-plm-assitant.git](https://github.com/rperumalraja-hue/rag-plm-assitant.git)
-cd rag-plm-assitant
-
+   Download ZIP (No Git required)
+   1.  Click the green **<> Code** button at the top of this page.
+   2.  Select **Download ZIP**.
+   3.  Extract (Unzip) the folder to your computer.
+   4.  Open your terminal (Command Prompt) and navigate into the extracted folder:
+       ```bash
+       cd rag-plm-assitant-main
+       ```
 2.  **Install dependencies:**
     ```bash
     pip install -r requirements.txt
